@@ -47,7 +47,7 @@ class App extends React.Component{
                         <Route path='/about' component={About}/>
                         <Route path='/sign-in' component={SignIn}/>
                         <Route path='/sign-up' component={SignUp}/>
-                        <Route path='/order' component={Order}/>
+                        <Route path='/order' component={Order}/>                   
                     </div>
 
                     <div id="footer">
