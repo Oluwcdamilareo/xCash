@@ -43,7 +43,7 @@ class OrderForm extends React.Component{
                 validationErrors.address = addressValid? '': 'needs to be at least 10 characters'
                 break;
             case 'amount':
-            amountValid = Number(value) >= Number(5000) && Number(value) < Number(50000)
+            amountValid = Number(value) >= Number(1000) && Number(value) < Number(50000)
             validationErrors.amount = amountValid? '': 'amount you entered needs to between 5000 and 50000'
             break;
             default:
