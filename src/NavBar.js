@@ -1,17 +1,17 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import Popup from 'reactjs-popup'
-import Pricing from './Pricing.js'
-import PricingLink from './PricingLink.js'
+import PricingModal from './PricingModal.js'
 
+const contentStyle ={
+    background: "rgb(4, 105, 182)",
+    border: 'none',
+    borderRadius: '5px',
+    padding: '20px'
+}
 export default () => (
     <div className='nav-bar'>
         <NavLink to='/order'>Order</NavLink>
-        <Popup
-        modal
-        trigger={open=><PricingLink open={open}/>}>
-            {close => <Pricing close={close}/>}
-        </Popup>
+        <PricingModal/>
         <NavLink to='/sign-in'>Sign in</NavLink>
         <NavLink to='/sign-up' id='sign-up'>Sign up</NavLink>
     </div>

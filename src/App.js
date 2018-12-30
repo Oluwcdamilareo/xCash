@@ -18,7 +18,7 @@ const contentStyle ={
     textAlign:"center",
     color: "white",
     borderRadius:"10px",
-    background: "rgb(0,59,105)"
+    background: "rgb(4, 105, 182)"
 }
 class App extends React.Component{
     render(){

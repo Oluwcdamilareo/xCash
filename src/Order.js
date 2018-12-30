@@ -44,7 +44,7 @@ class OrderForm extends React.Component{
                 break;
             case 'amount':
             amountValid = Number(value) >= Number(1000) && Number(value) < Number(50000)
-            validationErrors.amount = amountValid? '': 'amount you entered needs to between 5000 and 50000'
+            validationErrors.amount = amountValid? '': 'needs to between 1000 and 50000'
             break;
             default:
             break;

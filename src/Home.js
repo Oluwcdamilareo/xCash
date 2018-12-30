@@ -3,13 +3,6 @@ import {NavLink} from 'react-router-dom'
 import SuggestFeatureModal from './SuggestFeatureModal.js'
 
 
-const contentStyle={
-    width: '60%',
-    borderRadius: '5px',
-    border: 'none',
-    background: 'rgb(223,232,243)',
-}
-
 class Home extends React.Component{
     render(){
         return(
@@ -29,4 +22,5 @@ class Home extends React.Component{
         );
     }
 }
+
 export default Home;

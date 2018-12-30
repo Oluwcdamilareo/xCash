@@ -1,6 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import './MobileMenu.css'
+import PricingModal from './PricingModal.js'
 
 export default ({close}) => (
     <div className='menu'>
@@ -11,7 +12,10 @@ export default ({close}) => (
             <li onClick={close}>
                 <NavLink to='/order'>Order</NavLink>
             </li>
-            <li onClick={close}>
+            <li id='pricing-button-mobile'>
+                <PricingModal/>
+            </li>
+            <li>
                 <NavLink to='/sign-in'>Sign In</NavLink>
             </li>
             

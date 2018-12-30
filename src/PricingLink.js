@@ -1,6 +1,6 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import './PricingLink.css'
 
 export default ({open,...props})=>(
-    <button id='pricing-button' {...props}>Pricing</button>
+    <button className='pricing-button' {...props}>Pricing</button>
 )
