@@ -3,7 +3,7 @@ import Popup from 'reactjs-popup';
 import SuggestFeature from './SuggestFeature';
 import FeedbackButton from './FeedbackButton.js';
 import FormErrors from './FormErrors';
-
+import SuggestFeatureModal from './SuggestFeatureModal.js'
 
 class OrderForm extends React.Component{
     constructor(props){
@@ -109,15 +109,7 @@ class Order extends React.Component{
                 <div id='order-left'>
                     <h1 className='form-header'>No more ATM Lines</h1>
                     <p className='form-subheading'>Quick cash, whether you want it. You'll never stress again</p>
-                    <Popup
-                    modal
-                    closeOnDocumentClick={false}
-                    contentStyle={contentStyle}
-                    overlayStyle={{background:'rgb(98,106,130)'}}
-                    trigger={open => <FeedbackButton open={open}/>}>
-
-                    {close=> <SuggestFeature close={close}/>}
-                    </Popup>
+                    <SuggestFeatureModal/>
                 </div>
                 <div id='order-right'>
                     <OrderForm/>

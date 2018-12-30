@@ -1,8 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import Popup from 'reactjs-popup'
-import SuggestFeature from './SuggestFeature.js'
-import FeedbackButton from './FeedbackButton.js'
+import SuggestFeatureModal from './SuggestFeatureModal.js'
+
 
 const contentStyle={
     width: '60%',
@@ -23,15 +22,7 @@ class Home extends React.Component{
                 <div className='home-buttons'>
                     
                     {<NavLink to='/order'>Order Cash</NavLink>}
-                    <Popup
-                    modal
-                    closeOnDocumentClick={false}
-                    contentStyle={contentStyle}
-                    overlayStyle={{background:'rgb(98,106,130)'}}
-                    trigger={open => <FeedbackButton open={open}/>}>
-
-                    {close=> <SuggestFeature close={close}/>}
-                    </Popup>
+                    <SuggestFeatureModal/>
                 </div>
                 
             </div>

@@ -15,7 +15,7 @@ button{
     color: white;
 }
 #hero-message-home h1{
-    padding-top: 30%;
+    padding-top: 26%;
     font-size: 1.3em;
     width:70%;
     color:white;
@@ -40,8 +40,10 @@ button{
 #submit-a-feature{
     border: none;
     padding: .7em 1.5em;
-    background-color: rgb(195,0,142);
+    background-color: rgb(216, 29, 166);
     color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 #order-right{
@@ -56,7 +58,7 @@ button{
 #order-right input{
     margin-bottom: 3%;
     height:2em;
-    border-radius: 5%;
+    border-radius: 5px;
     border:none;
     min-width: 75%;
     width:75%;
@@ -72,6 +74,8 @@ button{
     color: white;
     margin-top: 4%;
     transition: .4s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 .form{
@@ -102,7 +106,7 @@ button{
     margin-top: 2%;
     width:60%;
     padding: 1% 1%; 
-    border-radius: 5%;
+    border-radius: 5px;
     border: none;
 }
 
@@ -127,6 +131,8 @@ p.form-error{
     color: white;
     text-decoration: none;
     margin-right: 1%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 @media only screen and (min-width:768px){
@@ -141,7 +147,6 @@ p.form-error{
         margin-top: 2%;
         width:50%;
         padding: 1% 1%; 
-        border-radius: 5%;
         border: none;
     }
 
@@ -187,7 +192,6 @@ p.form-error{
         margin-top: 2%;
         width:50%;
         padding: 1% 1%; 
-        border-radius: 5%;
         border: none;
     }
 

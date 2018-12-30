@@ -38,7 +38,7 @@ class SuggestFeature extends React.Component{
                 break;
             
             case 'suggestion':
-                suggestionValid = value.length > 10
+                suggestionValid = value.length >= 5
                 validationErrors.suggestion = suggestionValid? '': 'needs to be at least 10 characters'
                 break;
             default:

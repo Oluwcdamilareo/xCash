@@ -4,7 +4,6 @@ import './App.css'
 import Home from './Home'
 import SignIn from './SignIn'
 import SignUp from './SignUp'
-import About from './About'
 import Order from './Order'
 import NavBar from './NavBar.js'
 import Popup from 'reactjs-popup'
@@ -43,8 +42,7 @@ class App extends React.Component{
                     </div>
 
                     <div className='content'>
-                        <Route exact path='/' component={Home}/>
-                        <Route path='/about' component={About}/>
+                        <Route exact path='/' component={Home}/> 
                         <Route path='/sign-in' component={SignIn}/>
                         <Route path='/sign-up' component={SignUp}/>
                         <Route path='/order' component={Order}/>                   
