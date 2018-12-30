@@ -8,7 +8,7 @@ const contentStyle ={
     border: 'none',
     borderRadius: '5px',
     width: '70%',
-    height:'70%'
+    
 }
 
 class PricingModal extends Component{
