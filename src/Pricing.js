@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './Pricing.css'
 
 export default ({close}) =>(
     <div>
@@ -7,18 +8,18 @@ export default ({close}) =>(
         </div>
         <div className='pricing-content'>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><span>&#8358;</span>1000-3000 (<span>&#8358;</span>100)</li>
+                <li><span>&#8358;</span>4000-9000 (<span>&#8358;</span>200)</li>
+                <li><span>&#8358;</span>10000-15000 (<span>&#8358;</span>400)</li>
+                <li><span>&#8358;</span>15000-20000 (<span>&#8358;</span>500)</li>
+                <li><span>&#8358;</span>20000+ (<span>&#8358;</span>700)</li>
             </ul>
 
         </div>
         <div className='pricing-footer'>
             <label>
                 Please note that pricing is subject to change
-                <button onClick={close}>close</button>
+                <button onClick={close} className='pricing-footer-button'>close</button>
             </label>
 
         </div>

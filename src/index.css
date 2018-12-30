@@ -49,7 +49,7 @@ button{
 #order-right{
     float:right;
     width:40%;
-    padding: 16% 5% 0 0;
+    padding: 20% 5% 0 0;
     text-align: center;
     display: block;
 }
@@ -178,6 +178,10 @@ p.form-error{
         font-size: 1.3em;
         
     }
+
+    #order-right{
+        padding: 17% 5% 0 0;
+    }
 }
 
 @media only screen and (min-width:600px){
@@ -221,4 +225,6 @@ p.form-error{
         font-size: 1.3em;
         
     }
-}
+
+    
+}   

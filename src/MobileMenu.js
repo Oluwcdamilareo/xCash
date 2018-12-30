@@ -15,7 +15,7 @@ export default ({close}) => (
             <li id='pricing-button-mobile'>
                 <PricingModal/>
             </li>
-            <li>
+            <li onClick={close}>
                 <NavLink to='/sign-in'>Sign In</NavLink>
             </li>
             

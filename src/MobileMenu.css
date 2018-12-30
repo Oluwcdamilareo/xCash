@@ -2,7 +2,7 @@
     width: 100%;
     display: block;
     text-align: center;
-    padding: 8% 0;
+    padding: 6% 0;
     transition: .3s;
   }
 .menu ul {
@@ -25,4 +25,10 @@ font-size: 1em;
 }
 .menu li a:hover {
 color: grey;
+}
+
+@media only screen and (min-width:600px){
+    .menu {
+        padding: 5% 0;
+      }
 }

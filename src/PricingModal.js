@@ -7,9 +7,8 @@ const contentStyle ={
     background: "rgb(4, 105, 182)",
     border: 'none',
     borderRadius: '5px',
-    padding: '0px 5px',
-    width: '80%',
-    height: '70%'
+    width: '70%',
+    height:'70%'
 }
 
 class PricingModal extends Component{
@@ -17,7 +16,7 @@ class PricingModal extends Component{
         return(
             <Popup
                 modal
-                trigger={open=><PricingLink open={open}/>}
+                trigger={open=><PricingLink open={open} />}
                 contentStyle ={contentStyle}
                 overlayStyle={{background:'rgba(255,255,255,.9'}}>
                 
