@@ -15,7 +15,6 @@
     margin-right: 1%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-
 }
 #hero-message-home{
     text-align: center;
@@ -23,24 +22,24 @@
 }
 #hero-message-home h1{
     padding-top: 26%;
-    font-size: 2em;
-    width:70%;
+    font-size:1.4em;
+    width:100%;
     color:white;
     padding-bottom: 0;
     margin: auto;
 }
 
 #hero-message-home p{
-    margin-top:2%;
-    font-size: 1.4em;
+    margin-top:1%;
+    font-size: 1.1em;
     
 }
 
 @media only screen and (min-width:768px){
     #hero-message-home h1{
-        padding-top: 30%;
-        font-size: 1.8em;
-        width:70%;
+
+        font-size: 1.6em;
+        width:100%;
         color:white;
         padding-bottom: 0;
         margin: auto;
@@ -70,5 +69,24 @@
         
     }
 
+    .home-buttons{
+        width: 40%;
+        margin: auto;
+    }
+    
+    .home-buttons #button-1{
+        width: 50%;
+        float:left;
+    }
+    .home-buttons #button-2{
+        float:right;
+        width: 50%;
+        margin-top:-3.8%;
+    }
+    .home-buttons a{
+        background-color: rgb(0,198,94);
+        border: none;
+        padding: .8em 2.8em;
+    }
     
 }   
