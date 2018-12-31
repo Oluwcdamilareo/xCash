@@ -47,6 +47,9 @@ font-size: 1em;
   padding:8px 20px;
 }
 
+.submit-feature{
+  padding: 1em 2em;
+}
 @media only screen and (min-width:768px){
   .suggest-feature h1{
     font-size: 1.8em;

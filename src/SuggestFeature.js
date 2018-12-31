@@ -73,7 +73,7 @@ class SuggestFeature extends React.Component{
                     </li>
                     <li className='suggestion-buttons'>
                         <button onClick={close} className='close-suggestion'>Close</button>
-                        <button onClick={close} className='submit-suggestion form-button'  disabled={Boolean(!this.state.formValid)}>Submit</button>
+                        <button onClick={close} className='submit-suggestion'  disabled={Boolean(!this.state.formValid)}>Submit</button>
                     </li>
                 </ul>
             </div>

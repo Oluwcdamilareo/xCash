@@ -5,7 +5,7 @@
 
 .form-subheading{
     color: white;
-    margin-top: 0%;
+    margin-top: -5%;
     text-align: center;
 }
 button{
@@ -16,7 +16,7 @@ button{
 .submit-button{
     border: none;
     background-color: rgb(0,198,94);
-    padding: 1em 2.8em;
+    padding: .5em .8em;
     color: white;
     margin-top: 4%;
     transition: .4s;
@@ -49,10 +49,26 @@ button{
 .form-button:enabled{
     background-color: rgb(0,200,94);
 }
+
+.submit-suggestion{
+    color: white;
+    border: none;
+    padding: .6em 1.2em;
+    margin-left: 1%;
+    transition: .5s; 
+    text-align: center;
+}
+.submit-suggestion:disabled{
+    background-color: grey;
+}
+
+.submit-suggestion:enabled{
+    background-color: rgb(0,200,94);
+}
 .form input{
     margin-top: 2%;
-    width:60%;
-    padding: 2% 1%; 
+    width:90%;
+    padding: 3% 1%; 
     border-radius: 5px;
     border: none;
 }
