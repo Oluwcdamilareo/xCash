@@ -1,5 +1,6 @@
-import React, {Component} from 'react'
-import FormErrors from './FormErrors.js'
+import React, {Component} from 'react';
+import FormErrors from './FormErrors.js';
+import {NavLink} from 'react-router-dom'
 
 class SignUpForm extends React.Component{
     constructor(props){
@@ -72,6 +73,7 @@ class SignUpForm extends React.Component{
     render(){
         return(
             <div>
+                
                 <div className="form-error-container">
                         <FormErrors formErrors={this.state.formErrors}/>
                 </div>
@@ -90,8 +92,10 @@ class SignUpForm extends React.Component{
                     </div>
                     <div>
                         <button disabled={Boolean(!this.state.formValid)} className='submit-button form-button'>Sign up</button>
-                    </div>                                                          
+                    </div> 
+                    <div className="form-link">{<NavLink to='/sign-in'>Already have an account? Sign in</NavLink>}</div>                                                        
                 </form>
+                
             </div>
         );
     }

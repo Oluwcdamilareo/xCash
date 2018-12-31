@@ -80,8 +80,13 @@ p.form-error{
     font-size: .8em;
 }
 
+.form-link a{
+    color: white;
+}
 
-
+.form-link{
+    margin-top: 3%;
+}
 
 
 @media only screen and (min-width:768px){

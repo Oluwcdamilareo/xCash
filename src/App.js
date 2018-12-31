@@ -20,26 +20,29 @@ const contentStyle ={
     borderRadius:"10px",
     background: "rgb(4, 105, 182)"
 }
+
+const Header = ()=> (<div className='header'>                       
+<NavLink exact to='/'><img src='' alt='xCashng' id="logo-header"/></NavLink>
+<Popup
+modal
+closeOnDocumentClick
+className="popup"
+contentStyle={contentStyle}
+overlayStyle={{background:'rgba(255,255,255,.9'}}
+trigger={open=><BurgerIcon open={open}/>}
+>
+
+    {close=><MobileMenu close={close}/>}
+</Popup>
+<NavBar/>
+</div>)
+
 class App extends React.Component{
     render(){
         return(
             <HashRouter>
                 <div id="app-container">
-                    <div className='header'>                       
-                        <NavLink exact to='/'><img src='' alt='xCashng' id="logo-header"/></NavLink>
-                        <Popup
-                        modal
-                        closeOnDocumentClick
-                        className="popup"
-                        contentStyle={contentStyle}
-                        overlayStyle={{background:'rgba(255,255,255,.9'}}
-                        trigger={open=><BurgerIcon open={open}/>}
-                        >
-
-                            {close=><MobileMenu close={close}/>}
-                        </Popup>
-                        <NavBar/>
-                    </div>
+                    <Header/>
 
                     <div className='content'>
                         <Route exact path='/' component={Home}/> 

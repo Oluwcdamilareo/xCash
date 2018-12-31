@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import FormErrors from './FormErrors.js'
+import {NavLink} from 'react-router-dom'
+import './index.css'
 
 class SignInForm extends Component{
     constructor(props){
@@ -75,7 +77,7 @@ class SignInForm extends Component{
                     <div>
                         <button disabled={Boolean(!this.state.formValid)} onClick={this.handleSubmit} className='submit-button form-button' >Sign In</button>
                     </div>
-                    
+                    <div className="form-link">{<NavLink to='/sign-up'>Don't have an account? Sign up</NavLink>}</div>
                     
                     
                 </form>
