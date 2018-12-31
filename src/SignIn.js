@@ -8,7 +8,7 @@ class SignInForm extends Component{
             email: '',
             password: '',
             emailValid: false,
-            formErrors: {email:'', password:''},
+            formErrors: {email:''},
             passwordValid: false,
             formValid: false
         }
@@ -26,7 +26,6 @@ class SignInForm extends Component{
                 break;
             case 'password':
                 passwordValid = value.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{6,}$/)
-                fieldValidationErrors.password = passwordValid ? '' : 'needs to include: 1 Lowercase and Uppercase character, one number and be atleast 6 characters long'
                 break;
             default:
                 break;
@@ -70,7 +69,7 @@ class SignInForm extends Component{
                     <div>
                         <label>
                             
-                            <input autocomplete='off' onChange={this.handleInput} name='password' placeholder="Password" value={password}/>
+                            <input type="password" onChange={this.handleInput} name='password' placeholder="Password" value={password}/>
                         </label>
                     </div>
                     <div>

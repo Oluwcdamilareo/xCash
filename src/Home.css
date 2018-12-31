@@ -1,7 +1,10 @@
 .home-buttons{
     text-align: center;
+    
 }
-
+.home-buttons #button-1{
+    margin: 6% 0;
+}
 .home-buttons a{
     background-color: rgb(0,198,94);
     border: none;
@@ -66,7 +69,7 @@
     }
 
     .home-buttons{
-        width: 40%;
+        width: 100%;
         margin: auto;
     }
     

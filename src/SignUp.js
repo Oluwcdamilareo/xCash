@@ -83,13 +83,13 @@ class SignUpForm extends React.Component{
                         <input name='email' placeholder="Email Address"  onChange ={this.handleInput} value = {this.state.email}/>
                     </div>
                     <div>    
-                        <input name='password' autoComplete='off' placeholder="Password"  onChange ={this.handleInput} value={this.state.password}/>
+                        <input type="password" name='password' autoComplete='off' placeholder="Password"  onChange ={this.handleInput} value={this.state.password}/>
                     </div>
                     <div>    
-                        <input name='confirmation' autoComplete ='off' placeholder='Password Confirmation' onChange={this.handleInput} value={this.state.confirmation}/>
+                        <input type="password" name='confirmation' autoComplete ='off' placeholder='Password Confirmation' onChange={this.handleInput} value={this.state.confirmation}/>
                     </div>
                     <div>
-                        <button disabled={Boolean(!this.state.formValid)} className='submit-button form-button'>Sign In</button>
+                        <button disabled={Boolean(!this.state.formValid)} className='submit-button form-button'>Sign up</button>
                     </div>                                                          
                 </form>
             </div>
