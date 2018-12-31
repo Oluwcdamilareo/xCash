@@ -1,9 +1,6 @@
 .home-buttons{
     text-align: center;
-    
-}
-.home-buttons #button-1{
-    margin: 6% 0;
+    width: 100%;
 }
 .home-buttons a{
     background-color: rgb(0,198,94);
@@ -14,7 +11,9 @@
     margin-right: 1%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    width:100%;
 }
+
 #hero-message-home{
     text-align: center;
     color: white;
@@ -68,23 +67,8 @@
         
     }
 
-    .home-buttons{
-        width: 100%;
-        margin: auto;
-    }
-    
-    .home-buttons #button-1{
-        width: 60%;
-        float:left;
-    }
-    .home-buttons #button-2{
-        float:right;
-        width: 40%;
-    }
     .home-buttons a{
-        background-color: rgb(0,198,94);
-
         padding: 1em 2.8em;
     }
-    
+
 }   
