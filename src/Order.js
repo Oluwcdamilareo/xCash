@@ -86,8 +86,8 @@ class OrderForm extends React.Component{
                         <button disabled={Boolean(!this.state.formValid)} className="form-button">Order</button>
                     </div>
                     
-                    <div>
-                        <SuggestFeatureModal className="suggestion-order-form"/>
+                    <div id="suggestion-order-form">
+                        <SuggestFeatureModal />
                     </div>
                     
                 </form>
@@ -105,8 +105,8 @@ class Order extends React.Component{
                     <h1 className='form-header'>No more ATM Lines</h1>
                     <p className='form-subheading'>Quick cash, whether you want it. You'll never stress again</p>
                     <div id="suggestion-order">
-                    <SuggestFeatureModal />
-                </div>
+                        <SuggestFeatureModal />
+                    </div>
                     </div>
                 <div id='order-right'>
                     <OrderForm/>

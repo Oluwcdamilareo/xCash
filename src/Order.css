@@ -1,11 +1,12 @@
-#order-left{
-    width: 100%;
-    padding: 14% 0 0 5%;
-    text-align: center;
+#order-form{
+    margin-top: 10%;
 }
 
-
-
+#order-left{
+    width: 100%;
+    padding: 14% 0 0 0%;
+    text-align: center;
+}
 
 #order-right{
     width:100%;
@@ -19,11 +20,52 @@
     height:2em;
     border-radius: 5px;
     border:none;
-    min-width: 75%;
-    width:75%;
+    width:70%;
     padding: 1% 2%;
 }
 
 #suggestion-order{
     display: none;
 }
+
+#suggestion-order-form{
+    margin-top: 3%;
+}
+@media only screen and (min-width:768px){
+
+    #order-form{
+        margin-top: 0%;
+    }
+
+    
+}
+
+@media only screen and (min-width:768px){
+
+    #order-form{
+        margin-top: 3%;
+    }
+  
+    #order-right{
+        padding: 17% 5% 0 0;
+        float: right;
+        width: 40%;
+    }
+
+    #order-left{
+        padding: 14% 0% 0 5%;
+        float: left;
+        width: 35%;
+        text-align: left;
+    }
+
+    #suggestion-order{
+        display: block;
+
+    }
+
+    #suggestion-order-form{
+        display: none;
+    }
+    
+}   

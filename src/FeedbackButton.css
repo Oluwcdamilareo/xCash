@@ -7,3 +7,9 @@
     border-radius: 5px;
     font-size: 1em;
 }
+
+@media only screen and (min-width:600px){
+    #submit-a-feature{
+        padding: .8em 1.8em;
+    }
+}
