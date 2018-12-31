@@ -1,9 +1,8 @@
 import React from 'react'
 import Popup from 'reactjs-popup';
-import SuggestFeature from './SuggestFeature';
-import FeedbackButton from './FeedbackButton.js';
 import FormErrors from './FormErrors';
 import SuggestFeatureModal from './SuggestFeatureModal.js'
+import './Order.css'
 
 class OrderForm extends React.Component{
     constructor(props){
@@ -87,18 +86,14 @@ class OrderForm extends React.Component{
                         <button disabled={Boolean(!this.state.formValid)} className="form-button">Order</button>
                     </div>
                     
-                    
+                    <div>
+                        <SuggestFeatureModal className="suggestion-order-form"/>
+                    </div>
                     
                 </form>
             </div>
         );
     }
-}
-const contentStyle={
-    width: '60%',
-    borderRadius: '5px',
-    border: 'none',
-    background: 'rgb(223,232,243)',
 }
 
 class Order extends React.Component{
@@ -109,8 +104,10 @@ class Order extends React.Component{
                 <div id='order-left'>
                     <h1 className='form-header'>No more ATM Lines</h1>
                     <p className='form-subheading'>Quick cash, whether you want it. You'll never stress again</p>
-                    <SuggestFeatureModal/>
+                    <div id="suggestion-order">
+                    <SuggestFeatureModal />
                 </div>
+                    </div>
                 <div id='order-right'>
                     <OrderForm/>
                 </div>

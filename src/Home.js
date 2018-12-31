@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import SuggestFeatureModal from './SuggestFeatureModal.js'
-
+import './Home.css'
 
 class Home extends React.Component{
     render(){
@@ -13,9 +13,8 @@ class Home extends React.Component{
                     
                 </div>
                 <div className='home-buttons'>
-                    
-                    {<NavLink to='/order'>Order Cash</NavLink>}
-                    <SuggestFeatureModal/>
+                    <div>{<NavLink to='/order'>Order Cash</NavLink>}</div>
+                    <div><SuggestFeatureModal/></div>               
                 </div>
                 
             </div>
