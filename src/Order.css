@@ -40,14 +40,14 @@
     
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:600px){
 
     #order-form{
         margin-top: 3%;
     }
   
     #order-right{
-        padding: 17% 5% 0 0;
+        padding: 14% 5% 0 0;
         float: right;
         width: 40%;
     }
