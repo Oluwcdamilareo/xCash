@@ -4,14 +4,9 @@
 .burger-menu.open {
   display: inline-block;
   cursor: pointer;
-  position: fixed;
-  right: 7%;
-  top: 10%;
+  float: right;
   z-index: 9999;
-  background: #fff;
-  padding: 10px;
-  border-radius: 100%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 .burger-menu .bar1,

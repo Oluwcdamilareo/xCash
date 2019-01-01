@@ -18,7 +18,7 @@ const contentStyle ={
     textAlign:"center",
     color: "white",
     borderRadius:"10px",
-    background: "rgb(4, 105, 182)"
+    background: "none"
 }
 
 const Header = ()=> (<div className='header'>                       

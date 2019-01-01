@@ -1,22 +1,31 @@
 .pricing-button{
-    margin-left: 8%;
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-    background-color: rgb(4, 105, 182);
     border: none;
-    padding: .5em .7em;
-    color: white;
-    border-radius: 5px;
-    transition: .4s;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 ;
+    background: none;
+    margin:0;
 }
 
 #pricing-button-mobile .pricing-button{
     margin-left: 0%;
-    color: white;
+    color: #333;
     text-decoration: none;
     padding: .3em .5em;
     font-size: 1em;
     background: none;
+}
+
+@media only screen and (min-width:1000px){
+    .pricing-button{
+        margin-left: 8%;
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        background-color: rgb(4, 105, 182);
+        border: none;
+        padding: .5em .7em;
+        color: white;
+        border-radius: 5px;
+        transition: .4s;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    }
 }
