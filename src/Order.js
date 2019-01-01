@@ -103,7 +103,7 @@ class Order extends React.Component{
             <div id='order-form'>
                 <div id='order-left'>
                     <h1 className='form-header'>No more ATM Lines</h1>
-                    <p className='form-subheading'>Quick cash, whether you want it. You'll never stress again</p>
+                    <p className='order-subheading'>Quick cash, whether you want it. You'll never stress again</p>
                     <div id="suggestion-order">
                         <SuggestFeatureModal />
                     </div>

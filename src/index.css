@@ -3,7 +3,7 @@
     color: white;
 }
 
-.form-subheading{
+.form-subheading,.order-subheading{
     color: white;
     margin-bottom: 3%;
     text-align: center;
@@ -11,7 +11,10 @@
 button{
     cursor: pointer;
 }
-
+.form-subheading{
+ 
+    text-align: center;
+}
 
 .submit-button{
     border: none;
@@ -111,7 +114,6 @@ p.form-error{
     .form-subheading{
         color: white;
         padding-top: 1%;
-        text-align: left;
     }
 
   
@@ -177,6 +179,9 @@ p.form-error{
         margin: .9%;
     }
 
+    .order-subheading{
+        text-align: left;
+    }
     
     
 }   
