@@ -20,7 +20,7 @@
     border-radius: 5px;
     border:none;
     width:90%;
-    padding: 2% 2%;
+    padding: 4% 2%;
     font-size: 1em;
 }
 
@@ -36,16 +36,6 @@
     #order-form{
         margin-top: 0%;
     }
-
-    
-}
-
-@media only screen and (min-width:600px){
-
-    #order-form{
-        margin-top: 3%;
-    }
-  
     #order-right{
         padding: 14% 5% 0 0;
         float: right;
@@ -58,14 +48,23 @@
         width: 35%;
         text-align: left;
     }
-
     #suggestion-order{
         display: block;
 
     }
+       
 
     #suggestion-order-form{
         display: none;
     }
+    
+}
+
+@media only screen and (min-width:600px){
+
+    #order-form{
+        margin-top: 3%;
+    }
+
     
 }   
