@@ -150,6 +150,10 @@ p.form-error{
         color: white;
         margin-top: -5%;
     }
+
+    .order-subheading{
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width:600px){
@@ -179,9 +183,7 @@ p.form-error{
         margin: .9%;
     }
 
-    .order-subheading{
-        text-align: left;
-    }
+   
     
     
 }   
