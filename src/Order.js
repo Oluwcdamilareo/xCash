@@ -1,5 +1,4 @@
 import React from 'react'
-import Popup from 'reactjs-popup';
 import FormErrors from './FormErrors';
 import SuggestFeatureModal from './SuggestFeatureModal.js'
 import './Order.css'
@@ -67,20 +66,13 @@ class OrderForm extends React.Component{
                 <form>
                     <FormErrors formErrors={this.state.formErrors}/>
                     <div>
-                        <label>
-                            <input name='name' placeholder="Full name" onChange={this.handleInput} value={this.state.name}/>
-                        </label>
+                        <input name='name' placeholder="Full name" onChange={this.handleInput} value={this.state.name}/>
                     </div>
-                    <div>
-                        <label>             
-                            <input name='address' placeholder="Address" onChange={this.handleInput} value={this.state.address}/>
-                        </label>
+                    <div>                                    
+                        <input name='address' placeholder="Address" onChange={this.handleInput} value={this.state.address}/>
                     </div>
-                    <div>
-                        <label>
-                            
-                            <input name='amount' placeholder="Amount" onChange={this.handleInput} value={this.state.amount}/>
-                        </label>
+                    <div>                                                   
+                        <input name='amount' placeholder="Amount" onChange={this.handleInput} value={this.state.amount}/>                       
                     </div>
                     <div>
                         <button disabled={Boolean(!this.state.formValid)} className="form-button">Order</button>
