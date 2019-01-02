@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "i": "^0.3.6",
+    "install": "^0.12.2",
+    "lighthouse": "^4.0.0-alpha.2-3.2.1",
     "rea": "0.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
