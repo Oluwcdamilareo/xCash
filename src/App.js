@@ -1,5 +1,6 @@
 import React from 'react'
-import {HashRouter, browserHistory, NavLink, Route} from 'react-router-dom'
+import {HashRouter, NavLink, Route} from 'react-router-dom'
+
 import './App.css'
 import Home from './Home'
 import SignIn from './SignIn'
@@ -40,7 +41,7 @@ trigger={open=><BurgerIcon open={open}/>}
 class App extends React.Component{
     render(){
         return(
-            <HashRouter>
+            <HashRouter >
                 <div id="app-container">
                     <Header/>
 
