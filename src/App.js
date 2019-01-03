@@ -23,7 +23,7 @@ const contentStyle ={
 }
 
 const Header = ()=> (<div className='header'>                       
-<NavLink exact to='/'><img src='' alt='xCashng' id="logo-header"/></NavLink>
+<NavLink exact to='/'><img src='../logo.png' alt='xCashng' id="logo-header"/></NavLink>
 <Popup
 modal
 closeOnDocumentClick
