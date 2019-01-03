@@ -13,7 +13,8 @@ class Home extends React.Component{
                     
                 </div>
                 <div className='home-buttons'>
-                    {<NavLink to='/order' >Order Cash</NavLink>}
+                    <div className='order-home-mobile'>{<NavLink to='/order' >Order Cash</NavLink>}</div>
+                    {<NavLink className='order-home-desktop'to='/order' >Order Cash</NavLink>}
                     <SuggestFeatureModal/>             
                 </div>
                 

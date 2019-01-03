@@ -7,7 +7,9 @@ const contentStyle={
     width: '60%',
     borderRadius: '5px',
     border: 'none',
-    background: 'rgb(223,232,243)',
+    background: 'rgb(77, 202, 196)',
+    color:"#fff"
+
 }
 
 class SuggestFeatureModal extends Component{

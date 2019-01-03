@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #app-container{
-    background-color: rgb(50,158,197);
+    background-color: rgb(77, 202, 196);
     display: flex;
     min-height: 100vh;
     width: 100%;
@@ -17,7 +17,9 @@
     width: 100%;
     padding: 5% 6% 0% 4%;
 }
-
+#logo-header{
+    width: 50px;
+}
 .content{
     padding: 0% 0;
     width: 100%;
@@ -35,7 +37,6 @@
 .nav-bar{
     width: 37%;
     float: right;
-
     display: none;
 }
 
@@ -70,13 +71,17 @@
 @media only screen and (min-width: 1000px){
     .nav-bar{
         display: inline;
+        padding: 30px 0;
     }
 
     .popup{
         display:none;
     }
     .header{
-        padding: 5% 0% 0% 4%;
+        padding: 2% 0% 0% 4%;
+    }
+    #logo-header{
+        width: 100px;
     }
 }
 
