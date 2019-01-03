@@ -9,5 +9,6 @@
   "static/css/main.032bdf30.chunk.css.map": "/static/css/main.032bdf30.chunk.css.map",
   "index.html": "/index.html",
   "precache-manifest.109cd0fb9b67498c9ab36a127ace2d33.js": "/precache-manifest.109cd0fb9b67498c9ab36a127ace2d33.js",
-  "service-worker.js": "/service-worker.js"
+  "service-worker.js": "/service-worker.js",
+  "manifest":"./manifest.json"
 }

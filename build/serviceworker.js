@@ -28,8 +28,8 @@ self.addEventListener('install', function(event) {
               // We will cache initial page and the main.js
               // We could also cache assets like CSS and images
               const urlsToCache = [
-                '/',
-                assets['App.js']
+                '/', '/order',
+                assets['main.js', 'main.css']
               ];
               cache.addAll(urlsToCache);
             })
